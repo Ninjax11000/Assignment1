@@ -39,3 +39,35 @@ font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     font-size: 20px;
 }
+
+.failure{
+    display: flex;
+    gap: 87px;
+    margin-top: 131px;
+    padding-left: 206px;
+    padding-bottom: 130px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 24px;
+}
+.failure-history{
+    padding-top: 250px;
+    padding-right: 322px;
+}
+.failure-history p{
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 16px;
+}
+ul {
+    list-style: none;
+
+  }
+  ul li:before {
+    content: '✓';
+    color: #16D887; 
+    line-height: 35px;
+   }
