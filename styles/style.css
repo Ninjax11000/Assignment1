@@ -47,7 +47,7 @@ font-family: 'Work Sans', sans-serif;
     padding-left: 206px;
     padding-bottom: 130px;
 }
-.failure-title{
+.title{
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
@@ -71,3 +71,56 @@ ul {
     color: #16D887; 
     line-height: 35px;
    }
+
+   .my-plans{
+    text-align: center;
+   }
+   .skills{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    padding-bottom: 130px;
+   }
+   .skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+   }
+   .skill-desc{
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+   }
+
+  
+
+   .call-now{
+    
+   margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 130px; 
+     text-align: left;
+     background-image: linear-gradient(to left, rgba(239, 100, 19, 0.116), rgba(226, 68, 15, 0.811)),url(../images/watch.png);
+     background-repeat: no-repeat;
+     border-radius: 8px;
+   }
+   .call-now-title{
+    margin-left: 64px;
+    margin-right: 517px;
+    padding-top: 59px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+   }
+   .call-now .btn-primary{
+    margin-left: 64px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    color: #F15B22;
+    background: white;
+   }
+   
